@@ -8,12 +8,12 @@ func main() {
 
 	a := 43
 
-	fmt.Println(a)
-	fmt.Println(&a)
+	fmt.Println("a:", a)
+	fmt.Println("&a:", &a)
 
 	var b = &a
 
-	fmt.Println(b)
+	fmt.Println("b:", b)
 
 	// the above code makes b a pointer to the memory address where an int is stored
 	// b is of type "int pointer"
